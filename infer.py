@@ -230,7 +230,7 @@ if __name__ == '__main__':
 
     if cmd.speedup > 1:
       print('Sampling method: '+ cmd.method)
-      print('Speed up: '+ str(cmd.method))
+      print('Speed up: '+ str(cmd.speedup))
     else:
       cmd.method = 'dpm-solver'
       print('Sampling method: DDPM')
